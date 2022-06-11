@@ -1,34 +1,83 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="my.css">
-    <link rel="stylesheet" href="boostrap/bootstrap.css">
-    <title>Bootstrap demo</title>
-    <link rel="stylesheet" href="bootstrap.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-  </head>
-  <body>
-    <!-- navbar -->
-    <div class="container mt-3">
-    <nav class="navbar navbar-expand-lg bg-light">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">trendyol</a>
-            <input class="form-control me-2" type="search" placeholder="Aradığınız ürün, kategori ya da markayı yazınız" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Arama</button>
-          </form>
-        </div>
-      </div>
-    </nav>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="boostrap/bootstrap.css">
+  <title>Bootstrap demo</title>
+  <link rel="stylesheet" href="bootstrap.css">
+  <link rel="stylesheet" href="custom.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+
+<body>
+
+  <!-- header -->
+
+  <div class="header header-expand-md">
+    <table>
+      <th>
+        <a href="">İndirim Kuponlarım</a>
+        <a href="">Trendyol'da Sayış Yap</a>
+        <a href="">Yardım & Destek</a>
+
+      </th>
+    </table>
+
   </div>
 
-    <!-- navbar -->
+
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-sm">
+    <div class="container ">
+      <a href="">trendyol</a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
+        aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="container-search container-search-expand-lg px-4 px-lg-5 col-7">
+        <form role="search">
+          <input class="form-control me- bg-light" type="search"
+            placeholder="Aradığınız ürün, kategori veya markayı yazınız" aria-label="Search">
+        </form>
+        <div class="container-icon container-icon-expand-sm px-4 px-5">
+          <img src="img/magnifiyer.svg" alt="magnifiyer">
+        </div>
+      </div>
+
+      <div class="nav-content-container col-3">
+        <div class="nav-content">
+
+          <a href=""> <i class="bi bi-person"> </i> Giriş Yap </a>
+
+        </div>
+        <div class="nav-content">
+
+          <a href=""> <i class="bi bi-suit-heart"> </i> Favorilerim</a>
+   
+
+        </div>
+        <div class="nav-content">
+
+          <a href=""><i class="bi bi-cart3"></i> Sepetim</a>
+
+        </div>
+      </div>
+  </nav>
 
 
 
+  <!-- navbar -->
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-  </body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
