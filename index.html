@@ -4,7 +4,6 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
   <link rel="stylesheet" href="boostrap/bootstrap.css">
   <title>Bootstrap demo</title>
@@ -17,8 +16,7 @@
 <body>
 
   <!-- header -->
-
-  <div class="header header-expand-md">
+  <div class="header header-expand-sm me-3">
     <table>
       <th>
         <a href="">İndirim Kuponlarım</a>
@@ -29,29 +27,42 @@
     </table>
 
   </div>
+  <!-- header -->
 
 
   <!-- navbar -->
-  <nav class="navbar navbar-expand-sm">
+  <nav class="navbar navbar-expand-lg  px-4">
     <div class="container ">
       <a href="">trendyol</a>
 
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
-        aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-content"
+        aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
+        <div id="navbar-content" class="collapse navbar collapse">
+          <ul class="navbar-nav me-auto mb-lg-0">
+            <li class="nav-item">
+              <div class="">
+                <form role="search">
+                  <input class="form-control form-control me-3 bg-light" type="search"
+                    placeholder="Aradığınız ürün, kategori veya markayı yazınız" aria-label="Search">
+                </form>
+            </li>
+          </ul>
+
+        </div>
       </button>
 
       <div class="container-search container-search-expand-lg px-4 px-lg-5 col-7">
         <form role="search">
-          <input class="form-control me- bg-light" type="search"
+          <input class="form-control form-control-expand-sm  me-3 bg-light" type="search"
             placeholder="Aradığınız ürün, kategori veya markayı yazınız" aria-label="Search">
         </form>
-        <div class="container-icon container-icon-expand-sm px-4 px-5">
+        <div class="container-icon container-icon-expand-smf px-4 px-5">
           <img src="img/magnifiyer.svg" alt="magnifiyer">
         </div>
       </div>
 
-      <div class="nav-content-container col-3">
+      <div class="nav-content-container nav-content-container-expand-md sm-col-3">
         <div class="nav-content">
 
           <a href=""> <i class="bi bi-person"> </i> Giriş Yap </a>
@@ -60,19 +71,62 @@
         <div class="nav-content">
 
           <a href=""> <i class="bi bi-suit-heart"> </i> Favorilerim</a>
-   
 
         </div>
-        <div class="nav-content">
 
-          <a href=""><i class="bi bi-cart3"></i> Sepetim</a>
-
-        </div>
+        <button type="button" class="btn btn-danger">
+          Sepetim <i class="bi bi-cart3 "></i>
+        </button>
       </div>
+    </div>
+
   </nav>
 
-
-
+  <div class="container-secondry container-second-expand-lg px-4 ">
+    <div class="container-menu">
+      <a href="">KADIN</a>
+    </div>
+    <div class="container-menu">
+      <a href="">ERKEK</a>
+    </div>
+    <div class="container-menu">
+      <a href="">ÇOCUK</a>
+    </div>
+    <div class="container-menu">
+      <a href="">EV & MOBİLYA</a>
+    </div>
+    <div class="container-menu">
+      <a href="">SÜPERMARKET</a>
+    </div>
+    <div class="container-menu">
+      <a href="">KOZMETİK</a>
+    </div>
+    <div class="container-menu">
+      <a href="">AYAKKABI & ÇANTA</a>
+    </div>
+    <div class="container-menu">
+      <a href="">SAAT & AKSESUAR</a>
+    </div>
+    <div class="container-menu">
+      <a href="">ELEKTRONİK</a>
+    </div>
+    <div class="container-menu">
+      <a href="">SPOR & OUTDOOR</a>
+    </div>
+  </div>
+  <hr>
+  <nav aria-label="breadcrumb ">
+    <ol class="breadcrumb breadcrumb-dark">
+      <li class="breadcrumb-item active" aria-current="page"><a href="">Anasayfa</a> </li>
+      <li class="breadcrumb-item active" aria-current="page"><a href="">Kadın</a> </li>
+      <li class="breadcrumb-item active" aria-current="page"><a href="">Giyim</a> </li>
+      <li class="breadcrumb-item active" aria-current="page"><a href="">İç Giyim</a> </li>
+      <li class="breadcrumb-item active" aria-current="page"><a href="">Atlet & Body</a> </li>
+      <li class="breadcrumb-item active" aria-current="page"><a href="">Atlet</a> </li>
+      <li class="breadcrumb-item active" aria-current="page"><a href="">TRENDYOLMİLLA Atlet</a> </li>
+    </ol>
+  </nav>
+  <hr>
   <!-- navbar -->
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"

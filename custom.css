@@ -24,7 +24,7 @@
 }
 
     .navbar{
-        margin-top: 1px;
+        margin-top: -15px;
     }
 
 .navbar>div>a{
@@ -48,7 +48,7 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 20px;
     padding-left: 20em;
     margin-left: 3em;
-    margin-top: 33px;
+    margin-top: 50px;
 }
 
 .container-icon{
@@ -69,8 +69,6 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 .nav-content a{
     font-size: 13px;
     text-decoration: none;
- 
-   
     font-weight: 600;
     color: black;
 }
@@ -80,4 +78,37 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
 
+.container-secondry{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5.5em;
+    margin-right: 5.5em;
+    margin-top: -5px;
+}
+
+.container-menu>a{
+text-decoration: none;
+color: black;
+justify-content: ;
+
+}
+
+.container-menu>a:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+.breadcrumb{
+    margin-left: 7em;
+}
+
+.breadcrumb a{
+    text-decoration: none;
+    color: black;
+}
+
+.breadcrumb a:hover{
+    text-decoration: underline;
+    color: orangered;
+}
 
