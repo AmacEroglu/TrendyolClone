@@ -16,13 +16,14 @@
 <body>
 
   <!-- header -->
-  <div class="header header-expand-sm me-3">
+  <div class="header header-expand-lg ">
     <table>
       <th>
+        <div class="header-content">
         <a href="">İndirim Kuponlarım</a>
         <a href="">Trendyol'da Sayış Yap</a>
         <a href="">Yardım & Destek</a>
-
+      </div>
       </th>
     </table>
 
@@ -31,39 +32,38 @@
 
 
   <!-- navbar -->
-  <nav class="navbar navbar-expand-lg  px-4">
-    <div class="container ">
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
       <a href="">trendyol</a>
 
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-content"
+      <button class="navbar-toggler mt-4" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-content"
         aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
         <div id="navbar-content" class="collapse navbar collapse">
           <ul class="navbar-nav me-auto mb-lg-0">
             <li class="nav-item">
-              <div class="">
-                <form role="search">
-                  <input class="form-control form-control me-3 bg-light" type="search"
-                    placeholder="Aradığınız ürün, kategori veya markayı yazınız" aria-label="Search">
-                </form>
+              <form role="search">
+                <input class="form-control form-control" type="search"
+                  placeholder="Aradığınız ürün, kategori veya markayı yazınız" aria-label="Search">
+              </form>
             </li>
           </ul>
 
-        </div>
       </button>
 
       <div class="container-search container-search-expand-lg px-4 px-lg-5 col-7">
         <form role="search">
-          <input class="form-control form-control-expand-sm  me-3 bg-light" type="search"
+          <input class="form-control bg-light" type="search"
             placeholder="Aradığınız ürün, kategori veya markayı yazınız" aria-label="Search">
+          <div class="container-icon container-icon-expand-lg me-xs-3 px-5 px-sm-">
+            <img src="img/magnifiyer.svg" alt="magnifiyer">
+          </div>
         </form>
-        <div class="container-icon container-icon-expand-smf px-4 px-5">
-          <img src="img/magnifiyer.svg" alt="magnifiyer">
-        </div>
+
       </div>
 
-      <div class="nav-content-container nav-content-container-expand-md sm-col-3">
-        <div class="nav-content">
+      <div class="nav-content-container row-cols-md-3 col-md-3 col-xs-3 col-lg-3 ">
+        <div class="nav-content ">
 
           <a href=""> <i class="bi bi-person"> </i> Giriş Yap </a>
 
@@ -82,56 +82,105 @@
 
   </nav>
 
-  <div class="container-secondry container-second-expand-lg px-4 ">
-    <div class="container-menu">
-      <a href="">KADIN</a>
+  <div class="container">
+    <div class="row row-cols-2 row-cols-md-3 justify-content-center">
+      <div class="container-menu col-lg-1">
+        <a href="">KADIN</a>
+      </div>
+      <div class="container-menu col-lg-1">
+        <a href="">ERKEK</a>
+      </div>
+      <div class="container-menu col-lg-1">
+        <a href="">ÇOCUK</a>
+      </div>
+      <div class="container-menu col-lg-1">
+        <a href="">EV & MOBİLYA</a>
+      </div>
+      <div class="container-menu col-lg-1">
+        <a href="">SÜPERMARKET</a>
+      </div>
+      <div class="container-menu col-lg-1">
+        <a href="">KOZMETİK</a>
+      </div>
+      <div class="container-menu col-lg-1">
+        <a href="">AYAKKABI & ÇANTA</a>
+      </div>
+      <div class="container-menu col-lg-1">
+        <a href="">SAAT & AKSESUAR</a>
+      </div>
+      <div class="container-menu col-lg-1">
+        <a href="">ELEKTRONİK</a>
+      </div>
+      <div class="container-menu col-lg-1">
+        <a href="">SPOR & OUTDOOR</a>
+      </div>
     </div>
-    <div class="container-menu">
-      <a href="">ERKEK</a>
-    </div>
-    <div class="container-menu">
-      <a href="">ÇOCUK</a>
-    </div>
-    <div class="container-menu">
-      <a href="">EV & MOBİLYA</a>
-    </div>
-    <div class="container-menu">
-      <a href="">SÜPERMARKET</a>
-    </div>
-    <div class="container-menu">
-      <a href="">KOZMETİK</a>
-    </div>
-    <div class="container-menu">
-      <a href="">AYAKKABI & ÇANTA</a>
-    </div>
-    <div class="container-menu">
-      <a href="">SAAT & AKSESUAR</a>
-    </div>
-    <div class="container-menu">
-      <a href="">ELEKTRONİK</a>
-    </div>
-    <div class="container-menu">
-      <a href="">SPOR & OUTDOOR</a>
-    </div>
-  </div>
-  <hr>
-  <nav aria-label="breadcrumb ">
-    <ol class="breadcrumb breadcrumb-dark">
-      <li class="breadcrumb-item active" aria-current="page"><a href="">Anasayfa</a> </li>
-      <li class="breadcrumb-item active" aria-current="page"><a href="">Kadın</a> </li>
-      <li class="breadcrumb-item active" aria-current="page"><a href="">Giyim</a> </li>
-      <li class="breadcrumb-item active" aria-current="page"><a href="">İç Giyim</a> </li>
-      <li class="breadcrumb-item active" aria-current="page"><a href="">Atlet & Body</a> </li>
-      <li class="breadcrumb-item active" aria-current="page"><a href="">Atlet</a> </li>
-      <li class="breadcrumb-item active" aria-current="page"><a href="">TRENDYOLMİLLA Atlet</a> </li>
-    </ol>
-  </nav>
-  <hr>
-  <!-- navbar -->
+    <hr>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
-    crossorigin="anonymous"></script>
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item active" aria-current="page"><a href="">Anasayfa</a> </li>
+        <li class="breadcrumb-item active" aria-current="page"><a href="">Kadın</a> </li>
+        <li class="breadcrumb-item active" aria-current="page"><a href="">Giyim</a> </li>
+        <li class="breadcrumb-item active" aria-current="page"><a href="">İç Giyim</a> </li>
+        <li class="breadcrumb-item active" aria-current="page"><a href="">Atlet & Body</a> </li>
+        <li class="breadcrumb-item active" aria-current="page"><a href="">Atlet</a> </li>
+        <li class="breadcrumb-item active" aria-current="page"><a href="">TRENDYOLMİLLA Atlet</a> </li>
+      </ol>
+
+
+    <hr>
+    <!-- navbar -->
+
+    <!-- product -->
+
+    <div class="container ">
+      <div class="card mb-3" style="max-width: 1100px;">
+        <div class="row g-2">
+          <div class="col-md-4">
+            <img src="img/atlet.jpg" class="img-fluid rounded-start" alt="ürün">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title"> <a href=""> TRENDYOLMİLLA</a> Pembe Super Crop Fitilli Örme Atlet <br>
+                TWOSS22AL0065
+              </h5>
+              <div class="satici">
+                <span>Satıcı: <a href="">Trendyol</a></span>
+              </div>
+
+              <div class="container-table">
+                <table>
+                  <tr>
+                    <th><i class="bi bi-star-fill"></i></i></th>
+                    <th><i class="bi bi-star-fill"></i></th>
+                    <th><i class="bi bi-star-fill"></i></th>
+                    <th><i class="bi bi-star-fill"></i></th>
+                    <th><i class="bi bi-star-half"></i></th>
+                    <th><a href="">303 Değerlendirme</a></th>
+                    <div class="kamera">
+                      <th><img src="img/kamera.webp" alt=""></th>
+                    </div>
+                  </tr>
+                </table>
+              </div>
+
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                content. This content is a little bit longer.</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <!-- product -->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"></script>
 </body>
 
 </html>

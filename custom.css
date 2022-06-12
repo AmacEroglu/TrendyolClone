@@ -16,6 +16,7 @@
     justify-content: end;
     margin-right: 10em;
     margin-top: 0 auto;
+    height: 10px;
 
 }
 
@@ -24,7 +25,8 @@
 }
 
     .navbar{
-        margin-top: -15px;
+        margin-top: -20px;
+        
     }
 
 .navbar>div>a{
@@ -36,7 +38,6 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
 color: black;
 margin-top: 23px;
 margin-left: 20px;
-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .navbar a:hover{
@@ -64,6 +65,7 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    justify-content: space-between;
    align-items: center;
    text-align: center;
+    padding-top: 2em;
 }
 
 .nav-content a{
@@ -79,32 +81,34 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .container-secondry{
-    display: flex;
+    /* display: flex;
     justify-content: space-between;
     margin-left: 5.5em;
     margin-right: 5.5em;
-    margin-top: -5px;
+    margin-top: -5px; */
 }
 
 .container-menu>a{
 text-decoration: none;
 color: black;
-justify-content: ;
+font-size: small;
+font-weight: 600;
 
 }
 
 .container-menu>a:hover{
-    color: black;
+    color: orangered;
     text-decoration: underline;
 }
 
 .breadcrumb{
-    margin-left: 7em;
+    margin-left: 0 auto;
 }
 
 .breadcrumb a{
     text-decoration: none;
     color: black;
+    font-size: smaller;
 }
 
 .breadcrumb a:hover{
@@ -112,3 +116,45 @@ justify-content: ;
     color: orangered;
 }
 
+.card-title a{
+    text-decoration: none;
+    color: black;
+}
+
+.card-title a:hover{
+color: black;
+text-decoration: underline;
+}
+
+.satici{
+    margin-top: -16px;
+}
+
+.satici span{
+    font-size: 11px;
+}
+
+.satici a{
+    text-decoration: none;
+}
+
+.container-table a{
+    font-size: x-small;
+    text-decoration: none;
+    color: rgb(158, 158, 158);
+}
+
+.container-table img{
+
+width: 30%;
+}
+
+
+.container-table a:hover{
+    text-decoration: underline;
+  color: orangered;
+}
+
+.container-table>div>tr>th>a :hover{
+    text-decoration: underline;
+}
