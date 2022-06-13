@@ -192,3 +192,84 @@ width: 100%;
    color: black;
    font-size: 12px;
 }
+
+.container-urun-size{
+    display: flex;
+    margin-top: 2em;
+
+    font-size: 12px;
+}
+
+.container-beden-xs{
+    color: gray;
+}
+
+.container-beden-tablo{
+    display: flex;
+    justify-content: end;
+    margin-top: -3em;
+    font-size: 12px;
+}
+
+.container-size{
+    display: inline-block;
+    border: 1px solid #F27A1A;
+    text-decoration: none;
+}
+
+.active>ul>li>a{
+text-decoration: none;
+color: black;
+font-size: 12px;
+}
+
+.active>ul>li>a:hover{
+    color: #F27A1A;
+}
+
+.card-text>p{
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.bell{
+    color: red;
+    margin-left: 10px;
+}
+
+.card-title-fifth{
+    font-weight: bold;
+    color: #F27A1A;
+    margin-left: 10px;
+}
+
+.card-text-alt{
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.card-row{
+    background: #FFEFE3;
+    border: 2px solid #F27A1A;
+}
+
+.list-p{
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.container-one-cikan{
+    font-size: 12px;
+}
+
+.container-one-cikan a{
+    color: black;
+}
+
+.container-one-cikan a:hover{
+color: #F27A1A;
+}
+
+.familiar img{
+    /* width: 40%; */
+}
