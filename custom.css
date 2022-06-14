@@ -83,7 +83,6 @@ text-decoration: none;
 color: black;
 font-size: small;
 font-weight: 600;
-
 }
 
 .container-menu>a:hover{
@@ -270,6 +269,20 @@ font-size: 12px;
 color: #F27A1A;
 }
 
-.familiar img{
-    /* width: 40%; */
+.kucuk-resim img{
+    width: 45px;
+    border: 3px solid;
+}
+
+.kucuk-resim>img {
+    border-color: rgb(220, 212, 212);
+}
+
+.kucuk-resim :hover{
+border-color: #F27A1A;
+}
+
+.benzer-urunler a{
+    color: black;
+    text-decoration: none;    
 }
