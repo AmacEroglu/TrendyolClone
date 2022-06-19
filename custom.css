@@ -1,47 +1,44 @@
-
-
-
-.header a{
+.header a {
     font-size: 11px;
     margin-left: 10px;
     text-decoration: none;
     color: rgb(140, 138, 138);
     font-weight: lighter;
-    }
+}
 
-    
-.header{
+
+.header {
     display: flex;
     justify-content: end;
     margin-right: 10em;
     margin-top: 2px;
 }
 
-.header a:hover{
+.header a:hover {
     color: black;
 }
 
-    .navbar{
-        margin-top: -20px;
-        
-    }
+.navbar {
+    margin-top: -20px;
 
-.navbar>div>a{
-display: flex;
-text-decoration: none;
-font-size: 37px;
-font-weight: bold;
-font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-color: black;
-margin-top: 23px;
-margin-left: 20px;
 }
 
-.navbar a:hover{
+.navbar>div>a {
+    display: flex;
+    text-decoration: none;
+    font-size: 37px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    margin-top: 23px;
+    margin-left: 20px;
+}
+
+.navbar a:hover {
     color: black;
 }
 
-.container-search{
+.container-search {
     position: relative;
     margin: 20px;
     padding-left: 20em;
@@ -49,227 +46,227 @@ margin-left: 20px;
     margin-top: 50px;
 }
 
-.container-icon{
+.container-icon {
     position: absolute;
     width: 16%;
     margin-left: 36em;
     margin-top: -2.1em;
 }
 
-.nav-content-container{
-   width: 100%;
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-   text-align: center;
+.nav-content-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
     padding-top: 2em;
 }
 
-.nav-content a{
+.nav-content a {
     font-size: 13px;
     text-decoration: none;
     font-weight: 600;
     color: black;
 }
 
-.nav-content a:hover{
+.nav-content a:hover {
     color: #F27A1A;
 
 }
 
 
-.container-menu>a{
-text-decoration: none;
-color: black;
-font-size: small;
-font-weight: 600;
+.container-menu>a {
+    text-decoration: none;
+    color: black;
+    font-size: small;
+    font-weight: 600;
 }
 
-.container-menu>a:hover{
+.container-menu>a:hover {
     color: #F27A1A;
     text-decoration: underline;
 }
 
-.breadcrumb{
+.breadcrumb {
     margin-left: 0 auto;
 }
 
-.breadcrumb a{
+.breadcrumb a {
     text-decoration: none;
     color: black;
     font-size: smaller;
 }
 
-.breadcrumb a:hover{
+.breadcrumb a:hover {
     text-decoration: underline;
     color: #F27A1A;
 }
 
-.card-title a{
+.card-title a {
     text-decoration: none;
     color: black;
 }
 
-.card-title a:hover{
-color: black;
-text-decoration: underline;
+.card-title a:hover {
+    color: black;
+    text-decoration: underline;
 }
 
-.satici{
+.satici {
     margin-top: -16px;
 }
 
-.satici span{
+.satici span {
     font-size: 11px;
 }
 
-.satici a{
+.satici a {
     text-decoration: none;
 }
 
-.container-table a{
+.container-table a {
     font-size: x-small;
     text-decoration: none;
     color: rgb(158, 158, 158);
 }
 
-.container-table img{
+.container-table img {
 
-width: 18%;
+    width: 18%;
 }
 
 
-.container-table a:hover{
+.container-table a:hover {
     text-decoration: underline;
-  color: #F27A1A;
+    color: #F27A1A;
 }
 
-.container-table>div>tr>th>a :hover{
+.container-table>div>tr>th>a :hover {
     text-decoration: underline;
 }
 
-.card-body>p{
+.card-body>p {
     font-size: 12px;
     font-weight: 400;
     margin-left: 1%;
     color: gray;
 }
 
-.p-card>a{
+.p-card>a {
     text-decoration: none;
     font-size: 12px;
     color: gray;
 }
 
-.p-card a:hover{
+.p-card a:hover {
     text-decoration: underline;
     color: #F27A1A;
 }
 
-.star{
+.star {
     color: rgb(255, 217, 0);
 }
 
- .bookmark{
+.bookmark {
     color: #F27A1A;
 }
 
-.card-body h4{
+.card-body>h4 {
     margin-top: -.8em;
     color: #F27A1A;
 }
 
-.col-1>img{
-width: 100%;
+.col-1>img {
+    width: 100%;
 }
 
-.container-text{
+.container-text {
     display: flex;
     flex-direction: row;
-   margin-top: 3px;
-   font-weight: 600;
-   color: black;
-   font-size: 12px;
+    margin-top: 3px;
+    font-weight: 600;
+    color: black;
+    font-size: 12px;
 }
 
-.container-urun-size{
+.container-urun-size {
     display: flex;
     margin-top: 2em;
 
     font-size: 12px;
 }
 
-.container-beden-xs{
+.container-beden-xs {
     color: gray;
 }
 
-.container-beden-tablo{
+.container-beden-tablo {
     display: flex;
     justify-content: end;
     margin-top: -3em;
     font-size: 12px;
 }
 
-.container-size{
+.container-size {
     display: inline-block;
     border: 1px solid #F27A1A;
     text-decoration: none;
 }
 
-.active>ul>li>a{
-text-decoration: none;
-color: black;
-font-size: 12px;
+.active>ul>li>a {
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
 }
 
-.active>ul>li>a:hover{
+.active>ul>li>a:hover {
     color: #F27A1A;
 }
 
-.card-text>p{
+.card-text>p {
     font-size: 10px;
     font-weight: bold;
 }
 
-.bell{
+.bell {
     color: red;
     margin-left: 10px;
 }
 
-.card-title-fifth{
+.card-title-fifth {
     font-weight: bold;
     color: #F27A1A;
     margin-left: 10px;
 }
 
-.card-text-alt{
+.card-text-alt {
     font-size: 11px;
     font-weight: bold;
 }
 
-.card-row{
+.card-row {
     background: #FFEFE3;
     border: 2px solid #F27A1A;
 }
 
-.list-p{
+.list-p {
     font-weight: bold;
     font-size: 13px;
 }
 
-.container-one-cikan{
+.container-one-cikan {
     font-size: 12px;
 }
 
-.container-one-cikan a{
+.container-one-cikan a {
     color: black;
 }
 
-.container-one-cikan a:hover{
-color: #F27A1A;
+.container-one-cikan a:hover {
+    color: #F27A1A;
 }
 
-.kucuk-resim img{
+.kucuk-resim img {
     width: 45px;
     border: 3px solid;
 }
@@ -278,11 +275,65 @@ color: #F27A1A;
     border-color: rgb(220, 212, 212);
 }
 
-.kucuk-resim :hover{
-border-color: #F27A1A;
+.kucuk-resim :hover {
+    border-color: #F27A1A;
 }
 
-.benzer-urunler a{
+.benzer-urunler a {
     color: black;
-    text-decoration: none;    
+    text-decoration: none;
+}
+
+
+.list-group>li {
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    background-color: rgb(238, 238, 238);
+    border: .px solid rgb(154, 152, 152);
+}
+
+.container-product {
+    display: flex;
+}
+
+.card-comment {
+    margin-top: 2%;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+.comment-card i {
+    color: rgb(241, 209, 25);
+    margin-right: 10px;
+}
+
+.user-comment {
+    background: rgb(247, 244, 244);
+    padding-bottom: 1%;
+    padding-top: 1%;
+}
+
+.user-comment i {
+    color: rgb(40, 169, 79);
+}
+
+.star-w>i {
+    color: gold;
+}
+
+.check-comment {
+    color: forestgreen;
+    font-size: 13px;
+    font-weight: 600;
+    margin-left: 8px;
+}
+
+.user-comment{
+    font-size: 14px;
+}
+
+.p-user{
+    font-size: 13px;
+    color: rgb(106, 103, 103);
 }
