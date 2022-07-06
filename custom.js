@@ -1,4 +1,4 @@
-function bigPic() {
-    document.getElementById("bigPic");
+function bigPic (btn){
+    document.getElementById("bigPic").src = btn;
 
 }
